@@ -1,5 +1,7 @@
 # **1601. Maximum Number of Achievable Transfer Requests**
 
+[Link to Problem](https://leetcode.com/problems/maximum-number-of-achievable-transfer-requests/)
+
 ## Problem Statement
 
 We have n buildings numbered from `0` to `n - 1`. Each building has a number of employees. It's transfer season, and some employees want to change the building they reside in.
@@ -11,14 +13,14 @@ All buildings are full, so a list of requests is achievable only if for each bui
 
 Return the maximum number of achievable requests.
 
-## Constraints:
+### Constraints:
 
 - 1 <= n <= 20
 - 1 <= requests.length <= 16
 - requests[i].length == 2
 - 0 <= fromi, toi < n
 
-# Solution
+## Solution
 
 Intuition : In brute force approach we could think of a solution in which we either take a take a request or not take a request. So for each request we have two possibilities and we are going to have at max 16 requests so time complexity `O(2^16)`. If we serve the request we will update out count which will store number of requests served else we will just go for next request in which we will have the same 2 scenarios.
 
