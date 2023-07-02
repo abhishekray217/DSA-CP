@@ -16,5 +16,5 @@ Return the minimum unfairness of all distributions.
 - Here the path in which any of the children will not get any candies bag is discarded as it will not lead to minimum Unfairness.
 
 ## Note :
-This question similar to **956.Tallest billboard**
+ - This question similar to **956.Tallest billboard**
 
