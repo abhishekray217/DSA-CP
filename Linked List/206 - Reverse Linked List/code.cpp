@@ -25,6 +25,7 @@ public:
         }
         return prev;
     }
+    
     void printList(ListNode* head){
         while(head){
             cout<<head->val<<" ";
